@@ -1,0 +1,48 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.61.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 8c7c65e75d04d62a22352bd8888fa5acb958c40c Changes
+SHA1 d6a0b65d8697e76360a7bf0dc280679ed09a86e6 Changes.ttl
+SHA1 9799c9bdea98984c6d1e459a501caadbc279cf5d Changes.xml
+SHA1 f8816263b2278b90ef91c34eaa3d09518391f563 MANIFEST
+SHA1 4ad146b506fab238321d1a523ce01836ee751290 META.yml
+SHA1 bd9611ee55c7283a0f5712e2d7fa68a4f0ebcdd0 Makefile.PL
+SHA1 53b08a2e448ac8751374a8eed725dfc09aa5fb63 inc/Module/Install.pm
+SHA1 150c0cf35e6b96a0d8eea62194c8abc0da182c86 inc/Module/Install/Base.pm
+SHA1 70c3500a28a1e5d255599ce3f44e9a7b80759109 inc/Module/Install/Can.pm
+SHA1 b19da2715a136aba51510f687a7b4e431e0a4bec inc/Module/Install/DOAPChangeSets.pm
+SHA1 5f0d6d859fb1cf84cd9bbb1e263d18f581c7e537 inc/Module/Install/Fetch.pm
+SHA1 75f901a4b514a772b03223e1b08e3b5cc78b1667 inc/Module/Install/Makefile.pm
+SHA1 29044991152cb220fcd2a5ccc3512139d2f5f577 inc/Module/Install/Metadata.pm
+SHA1 d5cd64445b98ff377f7bb3ad750c01b509622e28 inc/Module/Install/Scripts.pm
+SHA1 030a99123adabbda547150b63e00569ddf119fba inc/Module/Install/Share.pm
+SHA1 896bba60ebe29b3b60fce8414f923fec97bf53e1 inc/Module/Install/Win32.pm
+SHA1 e5c82926a05f844765964b013b31c48eefbb208c inc/Module/Install/WriteAll.pm
+SHA1 1091413917c839f311ecd44809a039c830b8a8dd lib/RDF/Endpoint.pm
+SHA1 507e9782a1ee0fcc93259988213ee026f2ac1f38 rdf_endpoint.json
+SHA1 b869f0095b6b4acb32f960f797e9f1af1d2871da scripts/endpoint.psgi
+SHA1 7f293d6c25b4934dbed210f6a6229dc1bb7b8bc5 share/index.html
+SHA1 aa6874f2bad5f0b75b0ff52760f5e6b48ec933ae share/www/favicon.ico
+SHA1 fb695276d8cde0f548f602ad27f61c6447bdef94 t/00-load.t
+SHA1 6387af7a5fde0747be5bc9ad2ec15ca9759bd95a t/pod.t
+SHA1 9115f7ffe1933ad736dc292f3c89595b36ed6aa2 t/pod_coverage.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkwr39IACgkQhPK6VMqoyC2vmACglmMTkWNENP/yjKcxEKuuY5JK
+SgQAoJuayauvRapBj54JUY/OH2c4FqyP
+=Xqnn
+-----END PGP SIGNATURE-----
