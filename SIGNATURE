@@ -18,7 +18,7 @@ SHA1 8c7c65e75d04d62a22352bd8888fa5acb958c40c Changes
 SHA1 d6a0b65d8697e76360a7bf0dc280679ed09a86e6 Changes.ttl
 SHA1 9799c9bdea98984c6d1e459a501caadbc279cf5d Changes.xml
 SHA1 f8816263b2278b90ef91c34eaa3d09518391f563 MANIFEST
-SHA1 4ad146b506fab238321d1a523ce01836ee751290 META.yml
+SHA1 b832363229552f0346cd1405993cfa62d728059e META.yml
 SHA1 bd9611ee55c7283a0f5712e2d7fa68a4f0ebcdd0 Makefile.PL
 SHA1 53b08a2e448ac8751374a8eed725dfc09aa5fb63 inc/Module/Install.pm
 SHA1 150c0cf35e6b96a0d8eea62194c8abc0da182c86 inc/Module/Install/Base.pm
@@ -31,7 +31,7 @@ SHA1 d5cd64445b98ff377f7bb3ad750c01b509622e28 inc/Module/Install/Scripts.pm
 SHA1 030a99123adabbda547150b63e00569ddf119fba inc/Module/Install/Share.pm
 SHA1 896bba60ebe29b3b60fce8414f923fec97bf53e1 inc/Module/Install/Win32.pm
 SHA1 e5c82926a05f844765964b013b31c48eefbb208c inc/Module/Install/WriteAll.pm
-SHA1 1091413917c839f311ecd44809a039c830b8a8dd lib/RDF/Endpoint.pm
+SHA1 31e8edc4b909dec75ed661efd038c777b9eb667d lib/RDF/Endpoint.pm
 SHA1 507e9782a1ee0fcc93259988213ee026f2ac1f38 rdf_endpoint.json
 SHA1 b869f0095b6b4acb32f960f797e9f1af1d2871da scripts/endpoint.psgi
 SHA1 7f293d6c25b4934dbed210f6a6229dc1bb7b8bc5 share/index.html
@@ -42,7 +42,7 @@ SHA1 9115f7ffe1933ad736dc292f3c89595b36ed6aa2 t/pod_coverage.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (Darwin)
 
-iEYEARECAAYFAkwr39IACgkQhPK6VMqoyC2vmACglmMTkWNENP/yjKcxEKuuY5JK
-SgQAoJuayauvRapBj54JUY/OH2c4FqyP
-=Xqnn
+iEYEARECAAYFAkwuK0QACgkQhPK6VMqoyC1m3ACfUDFxJg7QLuUW7Zga/Lca/h8W
+T20AnRJDXDoeEnYAksLET4/dkejW42M7
+=XcAh
 -----END PGP SIGNATURE-----
