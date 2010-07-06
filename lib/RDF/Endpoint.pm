@@ -4,7 +4,7 @@ RDF::Endpoint - A SPARQL Protocol Endpoint implementation
 
 =head1 VERSION
 
-This document describes RDF::Endpoint version 0.01_02.
+This document describes RDF::Endpoint version 0.01_03.
 
 =head1 SYNOPSIS
 
@@ -74,7 +74,7 @@ package RDF::Endpoint;
 use 5.008;
 use strict;
 use warnings;
-our $VERSION	= '0.01_02';
+our $VERSION	= '0.01_03';
 
 use RDF::Query 2.900;
 use RDF::Trine 0.124 qw(statement iri blank literal);
@@ -94,12 +94,13 @@ use HTML::HTML5::Parser;
 use HTML::HTML5::Writer qw(DOCTYPE_XHTML_RDFA);
 
 my $NAMESPACES	= {
-	xsd		=> 'http://www.w3.org/2001/XMLSchema#',
-	void	=> 'http://rdfs.org/ns/void#',
-	scovo	=> 'http://purl.org/NET/scovo#',
-	sd		=> 'http://www.w3.org/ns/sparql-service-description#',
-	jena	=> 'java:com.hp.hpl.jena.query.function.library.',
-	ldodds	=> 'java:com.ldodds.sparql.',
+	xsd			=> 'http://www.w3.org/2001/XMLSchema#',
+	'format'	=> 'http://www.w3.org/ns/formats/',
+	void		=> 'http://rdfs.org/ns/void#',
+	scovo		=> 'http://purl.org/NET/scovo#',
+	sd			=> 'http://www.w3.org/ns/sparql-service-description#',
+	jena		=> 'java:com.hp.hpl.jena.query.function.library.',
+	ldodds		=> 'java:com.ldodds.sparql.',
 };
 
 =item C<< new ( $conf ) >>
