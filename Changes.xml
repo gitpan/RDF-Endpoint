@@ -29,7 +29,7 @@
     <dcterms:isVersionOf rdf:resource="http://purl.org/NET/cpan-uri/dist/RDF-Endpoint/project"/>
     <doap:Version>
       <rdf:Description>
-        <doap:created>2010-06-30</doap:created>
+        <doap:created>2010-07-14</doap:created>
         <doap:revision>0.01</doap:revision>
       </rdf:Description>
     </doap:Version>
