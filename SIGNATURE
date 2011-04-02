@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.61.
+signed via the Module::Signature module, version 0.66.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -17,9 +17,10 @@ Hash: SHA1
 SHA1 5c8b2b5e6438343d6800bb0e7ed6a36389035d32 Changes
 SHA1 f271574b0927e719c7d9f73c88657252c4d70b6d Changes.ttl
 SHA1 9d41dbaa8fb71aa25590f022536302912a05d812 Changes.xml
-SHA1 f8816263b2278b90ef91c34eaa3d09518391f563 MANIFEST
-SHA1 9916479907ae40875a0462cd5279f92637d46a5a META.yml
-SHA1 bd9611ee55c7283a0f5712e2d7fa68a4f0ebcdd0 Makefile.PL
+SHA1 14a506260237169ed443ed15a269369cee605be3 LICENSE
+SHA1 3d606b9fd73715e85b2e6639830452a5f2e4da79 MANIFEST
+SHA1 5b7135c18ecc04a3b17d08d1b015f1ca37775eeb META.yml
+SHA1 465bdee1d8a1ea78aeded3e3a39007781b137afe Makefile.PL
 SHA1 53b08a2e448ac8751374a8eed725dfc09aa5fb63 inc/Module/Install.pm
 SHA1 150c0cf35e6b96a0d8eea62194c8abc0da182c86 inc/Module/Install/Base.pm
 SHA1 70c3500a28a1e5d255599ce3f44e9a7b80759109 inc/Module/Install/Can.pm
@@ -31,18 +32,39 @@ SHA1 d5cd64445b98ff377f7bb3ad750c01b509622e28 inc/Module/Install/Scripts.pm
 SHA1 030a99123adabbda547150b63e00569ddf119fba inc/Module/Install/Share.pm
 SHA1 896bba60ebe29b3b60fce8414f923fec97bf53e1 inc/Module/Install/Win32.pm
 SHA1 e5c82926a05f844765964b013b31c48eefbb208c inc/Module/Install/WriteAll.pm
-SHA1 6b21f0c06dffd37bdb0d63f38676d530c8a44fbd lib/RDF/Endpoint.pm
-SHA1 507e9782a1ee0fcc93259988213ee026f2ac1f38 rdf_endpoint.json
-SHA1 b869f0095b6b4acb32f960f797e9f1af1d2871da scripts/endpoint.psgi
-SHA1 1c2c0b04357b394ea517484119db598b4034bcfe share/index.html
+SHA1 04911cb487b7589a8147a9f687297e7ac4b19433 lib/RDF/Endpoint.pm
+SHA1 5b529574a41a765d50e6b208b38aec1baadaf99d rdf_endpoint.json
+SHA1 c8ef9826f277047a53bc1760560f34480ee3b1a3 scripts/endpoint.psgi
+SHA1 6d2d2c4783b8040a4ad0defbb54638dbf14a3f6d share/index.html
+SHA1 c40ebad09f7e1d92ad0228a0625d730ba2f57b84 share/www/css/docs.css
+SHA1 398bae2ae66a19ab8976036b50a2d20041b67fe5 share/www/css/sparqlcolors.css
 SHA1 aa6874f2bad5f0b75b0ff52760f5e6b48ec933ae share/www/favicon.ico
+SHA1 13fece7654a01193013d3d96528c851bfc79a300 share/www/js/codemirror.js
+SHA1 d372c911fcc2bd030da800fdeedfbcd6b0100c83 share/www/js/editor.js
+SHA1 551ff99056361eebfba2a32ea7445502a6eb4f21 share/www/js/highlight.js
+SHA1 5bff996ab2564db1a998de30cb9e1ae07cbe62b5 share/www/js/mirrorframe.js
+SHA1 d7540f8390913afc0d58484bf5161cf9b9aad9f8 share/www/js/parsecss.js
+SHA1 a0028275114eaedf7ddcf57976c99c32ecb2c1d3 share/www/js/parsedummy.js
+SHA1 39383cdfc93568cc5673e2b71f681e2811fb5463 share/www/js/parsehtmlmixed.js
+SHA1 d5319247a4b26cafccfd4f26621918f0f4d22ef4 share/www/js/parsejavascript.js
+SHA1 c6597fb9a5c7969237f7f039f2d0bc6968ef7ce7 share/www/js/parsesparql.js
+SHA1 ae75f537ad61277a21a8ec423f5deffed8454e22 share/www/js/parsexml.js
+SHA1 85cdbc16cd1581f441480d91fa5c0a50f234ff0b share/www/js/select.js
+SHA1 d3261a5ddb7e5835c7abed5d5c343f0ef98637a5 share/www/js/sparql_form.js
+SHA1 19cc324cce7165c868a60d523b2462c648f20887 share/www/js/stringstream.js
+SHA1 5fdb14f3db575d0ce6a7113f96ea5a530f4f1941 share/www/js/tokenize.js
+SHA1 7f581a2b4647f1214d1bc3160eb4e166a1261e4f share/www/js/tokenizejavascript.js
+SHA1 9bba7456d4a25b23e805bc2d1d5bde61371c4e82 share/www/js/undo.js
+SHA1 26ff15a8f6c196e8bd9f5d7e7b628a6ee9b0dfaa share/www/js/unittests.js
+SHA1 201409b1d00a8df0b65b00a1b92ab62d9e0bbd7a share/www/js/util.js
 SHA1 ab27c130ce49175526943d0ca34d6f7a1197a630 t/00-load.t
 SHA1 6387af7a5fde0747be5bc9ad2ec15ca9759bd95a t/pod.t
 SHA1 9115f7ffe1933ad736dc292f3c89595b36ed6aa2 t/pod_coverage.t
+SHA1 1b5e4fc0c5932eb76878c4f872a6247a5e017412 t/psgi.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (Darwin)
 
-iEYEARECAAYFAkw99egACgkQhPK6VMqoyC1MZQCeNgaEoWPx9nuJcwCRNMeQQ58z
-rFAAn0cgoZTbH7XkJHYDVVW1KgmhQ5Y9
-=/JNQ
+iEYEARECAAYFAk2WbeUACgkQhPK6VMqoyC3HUgCgkTY06oIxx+YYY/p4cX4Q6Rsa
+kFYAn2YT4gxdUSxbymjkbHVOTWA3eovO
+=4IL4
 -----END PGP SIGNATURE-----

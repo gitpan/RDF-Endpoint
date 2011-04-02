@@ -6,11 +6,12 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 6.42
   Test::More: 0.61
+  Test::WWW::Mechanize::PSGI: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
 generated_by: 'Module::Install version 0.99'
-license: perl
+license: zlib
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -31,13 +32,13 @@ requires:
   IO::Compress::Gzip: 0
   Plack::Request: 0
   Plack::Response: 0
-  RDF::Query: 2.9
+  RDF::Query: 2.905
   RDF::RDFa::Generator: 0
-  RDF::Trine: 0.124
+  RDF::Trine: 0.134
   XML::LibXML: 1.7
   perl: 5.8.0
 resources:
   homepage: http://search.cpan.org/dist/RDF-Endpoint/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/kasei/perlrdf/
-version: 0.01
+version: 0.01_04
