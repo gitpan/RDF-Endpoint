@@ -34,6 +34,30 @@
       </rdf:Description>
     </doap:Version>
   </rdf:Description>
+  <rdf:Description rdf:about="http://kasei.us/code/files/RDF-Endpoint-0.02.tar.gz">
+    <asc:changes>
+      <rdf:Description>
+        <asc:addition>Added CodeMirror files for syntax highlighting SPARQL query form markup.</asc:addition>
+        <asc:addition>Added ETag support for query results, varying based on Accept and Accept-Encoding headers, and query string.</asc:addition>
+        <asc:addition>Added support for POSTing queries and updates directly using the appropriate media types.</asc:addition>
+        <asc:update>Changes to align with SPARQL Protocol 1.1.</asc:update>
+        <asc:update>Fixed caching bug in which browsers would use cached results across endpoint instantiations.</asc:update>
+        <asc:update>Moved endpoint-specific configuration variables into top-level 'endpoint' hash.</asc:update>
+        <asc:update>Service description is now cached in the RDF::Endpoint object.</asc:update>
+        <asc:update>Updated RDF::Endpoint to use a persistent model object across run() calls.</asc:update>
+        <asc:update>Updated content negotiation quality values.</asc:update>
+        <asc:update>Updated endpoint.psgi to move config parsing and endpoint object construction outside of the request handler.</asc:update>
+        <asc:update>Updated tests to test functionality directly via PSGI.</asc:update>
+      </rdf:Description>
+    </asc:changes>
+    <dcterms:isVersionOf rdf:resource="http://purl.org/NET/cpan-uri/dist/RDF-Endpoint/project"/>
+    <doap:Version>
+      <rdf:Description>
+        <doap:created>2011-04-16</doap:created>
+        <doap:revision>0.02</doap:revision>
+      </rdf:Description>
+    </doap:Version>
+  </rdf:Description>
   <doap:Project rdf:about="http://purl.org/NET/cpan-uri/dist/RDF-Endpoint/project">
     <doap:bug-database rdf:resource="http://rt.cpan.org/Dist/Display.html?Queue=RDF-Endpoint"/>
     <doap:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-19</doap:created>
