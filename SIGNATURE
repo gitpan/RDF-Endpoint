@@ -14,13 +14,13 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 fd7069d80facf32790419c0764aa4676e8798d7c Changes
-SHA1 323bda64869caf64fc199f6cd362164a5a83b1c3 Changes.ttl
-SHA1 3f12a529b0e7848ef50310db158ebc36deeb3892 Changes.xml
+SHA1 cb0f1843395ace2f6d3b9983313d6c46a78954f4 Changes
+SHA1 c6e880185f74d9e649c3c9ce0bc7773afe956b8c Changes.ttl
+SHA1 0733c591dc1d09f03022704348b02eb8ca62cb23 Changes.xml
 SHA1 14a506260237169ed443ed15a269369cee605be3 LICENSE
 SHA1 3d606b9fd73715e85b2e6639830452a5f2e4da79 MANIFEST
-SHA1 77bf0ca67fc674b116aaa4f97a05b28ffef114ed META.yml
-SHA1 465bdee1d8a1ea78aeded3e3a39007781b137afe Makefile.PL
+SHA1 48c26bc2bee30993354d059c0bcee88932c3fefe META.yml
+SHA1 685a67da2a0ef0255bb1ba4b6e6ebe8669d1b8f3 Makefile.PL
 SHA1 53b08a2e448ac8751374a8eed725dfc09aa5fb63 inc/Module/Install.pm
 SHA1 150c0cf35e6b96a0d8eea62194c8abc0da182c86 inc/Module/Install/Base.pm
 SHA1 70c3500a28a1e5d255599ce3f44e9a7b80759109 inc/Module/Install/Can.pm
@@ -32,10 +32,10 @@ SHA1 d5cd64445b98ff377f7bb3ad750c01b509622e28 inc/Module/Install/Scripts.pm
 SHA1 030a99123adabbda547150b63e00569ddf119fba inc/Module/Install/Share.pm
 SHA1 896bba60ebe29b3b60fce8414f923fec97bf53e1 inc/Module/Install/Win32.pm
 SHA1 e5c82926a05f844765964b013b31c48eefbb208c inc/Module/Install/WriteAll.pm
-SHA1 f8223c13b63c417a344c5c24041e04dfa134e0bc lib/RDF/Endpoint.pm
+SHA1 30382d753de9d8486b719ae27c8f0817daf1bff1 lib/RDF/Endpoint.pm
 SHA1 5b529574a41a765d50e6b208b38aec1baadaf99d rdf_endpoint.json
 SHA1 c8ef9826f277047a53bc1760560f34480ee3b1a3 scripts/endpoint.psgi
-SHA1 6d2d2c4783b8040a4ad0defbb54638dbf14a3f6d share/index.html
+SHA1 d182c2c9bfefaf10b3f6e7056cd39c114a560d84 share/index.html
 SHA1 c40ebad09f7e1d92ad0228a0625d730ba2f57b84 share/www/css/docs.css
 SHA1 398bae2ae66a19ab8976036b50a2d20041b67fe5 share/www/css/sparqlcolors.css
 SHA1 aa6874f2bad5f0b75b0ff52760f5e6b48ec933ae share/www/favicon.ico
@@ -60,11 +60,12 @@ SHA1 201409b1d00a8df0b65b00a1b92ab62d9e0bbd7a share/www/js/util.js
 SHA1 ab27c130ce49175526943d0ca34d6f7a1197a630 t/00-load.t
 SHA1 6387af7a5fde0747be5bc9ad2ec15ca9759bd95a t/pod.t
 SHA1 9115f7ffe1933ad736dc292f3c89595b36ed6aa2 t/pod_coverage.t
-SHA1 1b5e4fc0c5932eb76878c4f872a6247a5e017412 t/psgi.t
+SHA1 80926a9b87fdc6a684095bc1ed1704f6313009f5 t/psgi.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (Darwin)
+Comment: GPGTools - http://gpgtools.org
 
-iEYEARECAAYFAk2qW38ACgkQhPK6VMqoyC1lRwCfWL98rbQw164Se/8YAYYRh0la
-VX4AnA29q7JFatop5P1xHqFEV1xrjJLM
-=U5h5
+iEYEARECAAYFAk3s/MUACgkQhPK6VMqoyC03cACbBzL8bDTjzghKvQkGQN2vk25A
++NoAn0ZQId+G4gr8K2zC/ALetXqNOnB9
+=C4gk
 -----END PGP SIGNATURE-----

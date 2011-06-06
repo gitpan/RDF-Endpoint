@@ -29,6 +29,7 @@ requires:
   HTML::HTML5::Parser: 0
   HTML::HTML5::Writer: 0
   HTTP::Negotiate: 0
+  Hash::Merge::Simple: 0
   IO::Compress::Gzip: 0
   Plack::Request: 0
   Plack::Response: 0
@@ -41,4 +42,4 @@ resources:
   homepage: http://search.cpan.org/dist/RDF-Endpoint/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/kasei/perlrdf/
-version: 0.02
+version: 0.02_01

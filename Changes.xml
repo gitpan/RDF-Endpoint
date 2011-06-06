@@ -58,6 +58,26 @@
       </rdf:Description>
     </doap:Version>
   </rdf:Description>
+  <rdf:Description rdf:about="http://kasei.us/code/files/RDF-Endpoint-0.03.tar.gz">
+    <asc:changes>
+      <rdf:Description>
+        <asc:update>Actually dereference correctly endpoint_path, and make the test use root (from kjetilk).</asc:update>
+        <asc:update>Add merging of namespace hashes (from kjetilk).</asc:update>
+        <asc:update>Make endpoint path configurable (from kjetilk).</asc:update>
+        <asc:update>Removed duplicated, hard-coded HTML to allow better customization of HTML (from nichtich).</asc:update>
+        <asc:update>Replace new_with_string with new and change docs (from kjetilk).</asc:update>
+        <asc:update>Updated service description RDF to use sd:endpoint instead of sd:url (tracking updates in the SD spec).</asc:update>
+        <asc:update>style element must go in head (from kjetilk).</asc:update>
+      </rdf:Description>
+    </asc:changes>
+    <dcterms:isVersionOf rdf:resource="http://purl.org/NET/cpan-uri/dist/RDF-Endpoint/project"/>
+    <doap:Version>
+      <rdf:Description>
+        <doap:created>2011-06-XX</doap:created>
+        <doap:revision>0.03</doap:revision>
+      </rdf:Description>
+    </doap:Version>
+  </rdf:Description>
   <doap:Project rdf:about="http://purl.org/NET/cpan-uri/dist/RDF-Endpoint/project">
     <doap:bug-database rdf:resource="http://rt.cpan.org/Dist/Display.html?Queue=RDF-Endpoint"/>
     <doap:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-19</doap:created>
