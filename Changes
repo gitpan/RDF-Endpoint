@@ -10,7 +10,7 @@ Home page:    <http://search.cpan.org/dist/RDF-Endpoint/>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=RDF-Endpoint>
 Maintainer:   Gregory Todd Williams <mailto:gwilliams@cpan.org>
 
-0.03 [2011-06-XX]
+0.03 [2011-06-07]
  - (Update) Removed duplicated, hard-coded HTML to allow better
    customization of HTML (from nichtich).
  - (Update) Add merging of namespace hashes (from kjetilk).
