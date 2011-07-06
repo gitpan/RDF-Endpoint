@@ -34,7 +34,7 @@ requires:
   Plack::Request: 0
   Plack::Response: 0
   RDF::Query: 2.905
-  RDF::RDFa::Generator: 0
+  RDF::RDFa::Generator: 0.102
   RDF::Trine: 0.134
   XML::LibXML: 1.7
   perl: 5.8.0
@@ -42,4 +42,4 @@ resources:
   homepage: http://search.cpan.org/dist/RDF-Endpoint/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/kasei/perlrdf/
-version: 0.03
+version: 0.03_01
