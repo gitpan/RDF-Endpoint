@@ -10,6 +10,15 @@ Home page:    <http://search.cpan.org/dist/RDF-Endpoint/>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=RDF-Endpoint>
 Maintainer:   Gregory Todd Williams <mailto:gwilliams@cpan.org>
 
+0.04 [2011-07-19]
+ - (Addition) Added RDFa serialization tests (from KjetilK).
+ - (Update) Require RDF::RDFa::Generator 0.102 (fixes RDFa service
+   description serialization bug).
+ - (Update) Fixed bug introduced by commit 3fb5e48 causing query results to
+   disappear from HTML results page.
+ - (Update) Allow the service description default graph to be a URI or a
+   blank node (based on config value).
+
 0.03 [2011-06-07]
  - (Update) Removed duplicated, hard-coded HTML to allow better
    customization of HTML (from nichtich).

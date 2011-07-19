@@ -14,12 +14,12 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 c9af42ecbc235a1ebd8105deb6bd05c7570d571f Changes
-SHA1 47c46f3dd3af202dcaa9999d502d4a54ec989f8c Changes.ttl
-SHA1 15bf0b58619b1dc4a3a4725350f69d99a3b3ddf4 Changes.xml
+SHA1 e6daf1c4940de3ac97a86b1ffd3b38116c464b49 Changes
+SHA1 a23535facb6adbc73053667702e0ee66f169009e Changes.ttl
+SHA1 f5d35946ec0ccf0cac0eea942ac01c0c8433e9e1 Changes.xml
 SHA1 14a506260237169ed443ed15a269369cee605be3 LICENSE
 SHA1 b2fac9e470966c65eba6f79c5322f6c3750f667b MANIFEST
-SHA1 601612e079b7a8b25a3bab47d1b456144887649a META.yml
+SHA1 0f55e0e1525287905fd681fe19d3945b5196ed73 META.yml
 SHA1 04325bfdf9f7637ede657df398427046bea9eef2 Makefile.PL
 SHA1 53b08a2e448ac8751374a8eed725dfc09aa5fb63 inc/Module/Install.pm
 SHA1 150c0cf35e6b96a0d8eea62194c8abc0da182c86 inc/Module/Install/Base.pm
@@ -32,7 +32,7 @@ SHA1 d5cd64445b98ff377f7bb3ad750c01b509622e28 inc/Module/Install/Scripts.pm
 SHA1 030a99123adabbda547150b63e00569ddf119fba inc/Module/Install/Share.pm
 SHA1 896bba60ebe29b3b60fce8414f923fec97bf53e1 inc/Module/Install/Win32.pm
 SHA1 e5c82926a05f844765964b013b31c48eefbb208c inc/Module/Install/WriteAll.pm
-SHA1 f2004a309e55a316c57c5b97607f53ae227c5b01 lib/RDF/Endpoint.pm
+SHA1 398e0e7c5df6ee8fa1325b62a61b1d8b205e9c77 lib/RDF/Endpoint.pm
 SHA1 5b529574a41a765d50e6b208b38aec1baadaf99d rdf_endpoint.json
 SHA1 c8ef9826f277047a53bc1760560f34480ee3b1a3 scripts/endpoint.psgi
 SHA1 d182c2c9bfefaf10b3f6e7056cd39c114a560d84 share/index.html
@@ -61,12 +61,12 @@ SHA1 201409b1d00a8df0b65b00a1b92ab62d9e0bbd7a share/www/js/util.js
 SHA1 ab27c130ce49175526943d0ca34d6f7a1197a630 t/00-load.t
 SHA1 6387af7a5fde0747be5bc9ad2ec15ca9759bd95a t/pod.t
 SHA1 9115f7ffe1933ad736dc292f3c89595b36ed6aa2 t/pod_coverage.t
-SHA1 e96b3417c6834b545a445ad4f05f25d5f71db182 t/psgi.t
+SHA1 ac64598a7c17b09028399364547a0907a3685af7 t/psgi.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (Darwin)
 Comment: GPGTools - http://gpgtools.org
 
-iEYEARECAAYFAk4UpjsACgkQhPK6VMqoyC3gRwCgg+uUnq4bfzYRMaDado+bewwP
-h20AnA32UATrq1X+p2ovWlUTG8PwFBVU
-=0L4S
+iEYEARECAAYFAk4lp4UACgkQhPK6VMqoyC36pwCfRfF0cNvkoXIgZJL5Kru4vlmw
+7zcAniY3ShN0Wal/y8fOQu4G53XQxBdE
+=XRki
 -----END PGP SIGNATURE-----
