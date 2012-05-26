@@ -32,7 +32,7 @@ requires:
   Hash::Merge::Simple: 0
   IO::Compress::Gzip: 0
   Plack::Middleware::AccessLog: 0
-  Plack::Request: 0
+  Plack::Request: 0.99
   Plack::Response: 0
   RDF::Query: 2.905
   RDF::RDFa::Generator: 0.102
@@ -43,4 +43,4 @@ resources:
   homepage: http://search.cpan.org/dist/RDF-Endpoint/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/kasei/perlrdf/
-version: 0.04_01
+version: 0.04_02
