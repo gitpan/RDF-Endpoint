@@ -33,24 +33,24 @@ Maintainer:   Gregory Todd Williams <mailto:gwilliams@cpan.org>
    kjetilk).
 
 0.02 [2011-04-16]
- - (Update) Updated RDF::Endpoint to use a persistent model object across
-   run() calls.
  - (Update) Service description is now cached in the RDF::Endpoint object.
  - (Update) Changes to align with SPARQL Protocol 1.1.
  - (Update) Moved endpoint-specific configuration variables into top-level
    'endpoint' hash.
  - (Update) Fixed caching bug in which browsers would use cached results
    across endpoint instantiations.
- - (Update) Updated content negotiation quality values.
- - (Addition) Added CodeMirror files for syntax highlighting SPARQL query
-   form markup.
  - (Addition) Added support for POSTing queries and updates directly using
    the appropriate media types.
- - (Update) Updated tests to test functionality directly via PSGI.
  - (Addition) Added ETag support for query results, varying based on Accept
    and Accept-Encoding headers, and query string.
  - (Update) Updated endpoint.psgi to move config parsing and endpoint
    object construction outside of the request handler.
+ - (Update) Updated RDF::Endpoint to use a persistent model object across
+   run() calls.
+ - (Update) Updated content negotiation quality values.
+ - (Addition) Added CodeMirror files for syntax highlighting SPARQL query
+   form markup.
+ - (Update) Updated tests to test functionality directly via PSGI.
 
 0.01 [2010-07-14]
  - (Addition) First release.

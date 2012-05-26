@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,13 +14,13 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 e6daf1c4940de3ac97a86b1ffd3b38116c464b49 Changes
+SHA1 9933ed2fb7290c937511c721187308418723b073 Changes
 SHA1 a23535facb6adbc73053667702e0ee66f169009e Changes.ttl
 SHA1 f5d35946ec0ccf0cac0eea942ac01c0c8433e9e1 Changes.xml
 SHA1 14a506260237169ed443ed15a269369cee605be3 LICENSE
 SHA1 b2fac9e470966c65eba6f79c5322f6c3750f667b MANIFEST
-SHA1 0f55e0e1525287905fd681fe19d3945b5196ed73 META.yml
-SHA1 04325bfdf9f7637ede657df398427046bea9eef2 Makefile.PL
+SHA1 93f7b83c9b4fe479e9daafe12d7112a1deb7af18 META.yml
+SHA1 605298edf1bf5043f2cf08fd07625e52af4d903e Makefile.PL
 SHA1 53b08a2e448ac8751374a8eed725dfc09aa5fb63 inc/Module/Install.pm
 SHA1 150c0cf35e6b96a0d8eea62194c8abc0da182c86 inc/Module/Install/Base.pm
 SHA1 70c3500a28a1e5d255599ce3f44e9a7b80759109 inc/Module/Install/Can.pm
@@ -32,9 +32,9 @@ SHA1 d5cd64445b98ff377f7bb3ad750c01b509622e28 inc/Module/Install/Scripts.pm
 SHA1 030a99123adabbda547150b63e00569ddf119fba inc/Module/Install/Share.pm
 SHA1 896bba60ebe29b3b60fce8414f923fec97bf53e1 inc/Module/Install/Win32.pm
 SHA1 e5c82926a05f844765964b013b31c48eefbb208c inc/Module/Install/WriteAll.pm
-SHA1 398e0e7c5df6ee8fa1325b62a61b1d8b205e9c77 lib/RDF/Endpoint.pm
-SHA1 5b529574a41a765d50e6b208b38aec1baadaf99d rdf_endpoint.json
-SHA1 c8ef9826f277047a53bc1760560f34480ee3b1a3 scripts/endpoint.psgi
+SHA1 84a3f099f8f5baefae9d1abf0103dea43d56fc08 lib/RDF/Endpoint.pm
+SHA1 47f5747c74628fe5e2f9f3c00ac20d96799fa63d rdf_endpoint.json
+SHA1 cab17f29a3f2b0d73190f04a6212e3593f7bab3f scripts/endpoint.psgi
 SHA1 d182c2c9bfefaf10b3f6e7056cd39c114a560d84 share/index.html
 SHA1 6dd0cf355b49dcb0fdfe9203c68917d5320584f8 share/results.html
 SHA1 c40ebad09f7e1d92ad0228a0625d730ba2f57b84 share/www/css/docs.css
@@ -66,7 +66,7 @@ SHA1 ac64598a7c17b09028399364547a0907a3685af7 t/psgi.t
 Version: GnuPG v1.4.10 (Darwin)
 Comment: GPGTools - http://gpgtools.org
 
-iEYEARECAAYFAk4lp4UACgkQhPK6VMqoyC36pwCfRfF0cNvkoXIgZJL5Kru4vlmw
-7zcAniY3ShN0Wal/y8fOQu4G53XQxBdE
-=XRki
+iEYEARECAAYFAk/AJnUACgkQhPK6VMqoyC1X6QCfSn/kdIEEINI4Fs9mZsh51D+9
+SYgAmgNBj3DlsbfcmPWgptazADL2uuTJ
+=Atls
 -----END PGP SIGNATURE-----
