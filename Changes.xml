@@ -95,6 +95,31 @@
       </rdf:Description>
     </doap:Version>
   </rdf:Description>
+  <rdf:Description rdf:about="http://kasei.us/code/files/RDF-Endpoint-0.05.tar.gz">
+    <asc:changes>
+      <rdf:Description>
+        <asc:addition>Let RDF_ENDPOINT_FILE env variable override the Config::JFDI default.</asc:addition>
+        <asc:addition>Use a default in-memory store if no config file is available.</asc:addition>
+        <asc:update>Added Service Description resultFormat triples for SPARQL XML and JSON Results.</asc:update>
+        <asc:update>Added use of Plack::Builder and Plack::Middleware::AccessLog in default configuration.</asc:update>
+        <asc:update>Croak when unable to open file handles</asc:update>
+        <asc:update>Fixed bug in handling of update requests.</asc:update>
+        <asc:update>Improved HTTP error status code messages.</asc:update>
+        <asc:update>Improved conformance with SPARQL 1.1 Protocol spec.</asc:update>
+        <asc:update>Removed custom logging code (should be done with Plack middleware).</asc:update>
+        <asc:update>Renamed Service Description sd:defaultDatasetDescription property to sd:defaultDataset.</asc:update>
+        <asc:update>Require a recent version (0.99) of Plack::Request with support for logging.</asc:update>
+        <asc:update>Updated see also link to SPARQL Protocol (1.1).</asc:update>
+      </rdf:Description>
+    </asc:changes>
+    <dcterms:isVersionOf rdf:resource="http://purl.org/NET/cpan-uri/dist/RDF-Endpoint/project"/>
+    <doap:Version>
+      <rdf:Description>
+        <doap:created>2012-05-28</doap:created>
+        <doap:revision>0.05</doap:revision>
+      </rdf:Description>
+    </doap:Version>
+  </rdf:Description>
   <doap:Project rdf:about="http://purl.org/NET/cpan-uri/dist/RDF-Endpoint/project">
     <doap:bug-database rdf:resource="http://rt.cpan.org/Dist/Display.html?Queue=RDF-Endpoint"/>
     <doap:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-19</doap:created>

@@ -10,6 +10,26 @@ Home page:    <http://search.cpan.org/dist/RDF-Endpoint/>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=RDF-Endpoint>
 Maintainer:   Gregory Todd Williams <mailto:gwilliams@cpan.org>
 
+0.05 [2012-05-28]
+ - (Update) Added use of Plack::Builder and Plack::Middleware::AccessLog in
+   default configuration.
+ - (Update) Added Service Description resultFormat triples for SPARQL XML
+   and JSON Results.
+ - (Update) Renamed Service Description sd:defaultDatasetDescription
+   property to sd:defaultDataset.
+ - (Update) Croak when unable to open file handles
+ - (Update) Updated see also link to SPARQL Protocol (1.1).
+ - (Update) Improved HTTP error status code messages.
+ - (Addition) Use a default in-memory store if no config file is available.
+ - (Addition) Let RDF_ENDPOINT_FILE env variable override the Config::JFDI
+   default.
+ - (Update) Require a recent version (0.99) of Plack::Request with support
+   for logging.
+ - (Update) Fixed bug in handling of update requests.
+ - (Update) Improved conformance with SPARQL 1.1 Protocol spec.
+ - (Update) Removed custom logging code (should be done with Plack
+   middleware).
+
 0.04 [2011-07-19]
  - (Addition) Added RDFa serialization tests (from KjetilK).
  - (Update) Require RDF::RDFa::Generator 0.102 (fixes RDFa service
