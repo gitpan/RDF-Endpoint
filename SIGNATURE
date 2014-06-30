@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,28 +14,29 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 9ec0ded8359876adafbb027431ecbe3811587563 Changes
-SHA1 d044ad160395969413461b1fe34bde91268b9e9d Changes.ttl
-SHA1 79cfe96086a40eba7740437bb178c07ae2a7956f Changes.xml
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 Changes
+SHA1 aa0a31cb8f82260636e0a1040fe4a8b6e53bf4d4 Changes.ttl
+SHA1 b11936d525a7da21f77f2514f47682cf4e3f4cd6 Changes.xml
 SHA1 14a506260237169ed443ed15a269369cee605be3 LICENSE
-SHA1 b2fac9e470966c65eba6f79c5322f6c3750f667b MANIFEST
-SHA1 9cc420a55ba7d337367175a027711fbd1fa1d56f META.yml
-SHA1 a334b310bf4954ae4d4aaf9961a64248b67b8042 Makefile.PL
-SHA1 53b08a2e448ac8751374a8eed725dfc09aa5fb63 inc/Module/Install.pm
-SHA1 150c0cf35e6b96a0d8eea62194c8abc0da182c86 inc/Module/Install/Base.pm
-SHA1 70c3500a28a1e5d255599ce3f44e9a7b80759109 inc/Module/Install/Can.pm
-SHA1 b19da2715a136aba51510f687a7b4e431e0a4bec inc/Module/Install/DOAPChangeSets.pm
-SHA1 5f0d6d859fb1cf84cd9bbb1e263d18f581c7e537 inc/Module/Install/Fetch.pm
-SHA1 75f901a4b514a772b03223e1b08e3b5cc78b1667 inc/Module/Install/Makefile.pm
-SHA1 29044991152cb220fcd2a5ccc3512139d2f5f577 inc/Module/Install/Metadata.pm
-SHA1 d5cd64445b98ff377f7bb3ad750c01b509622e28 inc/Module/Install/Scripts.pm
-SHA1 030a99123adabbda547150b63e00569ddf119fba inc/Module/Install/Share.pm
-SHA1 896bba60ebe29b3b60fce8414f923fec97bf53e1 inc/Module/Install/Win32.pm
-SHA1 e5c82926a05f844765964b013b31c48eefbb208c inc/Module/Install/WriteAll.pm
-SHA1 1568716dc0c5a92f1eba747bef5e1043c8614f6d lib/RDF/Endpoint.pm
-SHA1 47f5747c74628fe5e2f9f3c00ac20d96799fa63d rdf_endpoint.json
+SHA1 e990e5290fcd14b34615b637c2c9d8c0444b79f4 MANIFEST
+SHA1 0e414015e04b7865f73483936542239b49827036 META.yml
+SHA1 5e794284d491f879ee7bcaf750b5cdbecccc29de Makefile.PL
+SHA1 c082d44c499766f1583a4feda9e2ec11e8c46d44 README
+SHA1 dc13ce0dbb488a5de81c3f6519ee31acda17397a inc/Module/Install.pm
+SHA1 91c20cbda8ca41b4e8f9e0390faff635c2ebe839 inc/Module/Install/Base.pm
+SHA1 eaf50ccbacecb797f0527deb0221c8264f6c8bd8 inc/Module/Install/Can.pm
+SHA1 470809a1dbe03e197e74dde79c6af40b5f7f9b26 inc/Module/Install/DOAPChangeSets.pm
+SHA1 363c8931cc183444907684b71d6a379e4fc8edcb inc/Module/Install/Fetch.pm
+SHA1 26ae1c0f5f352037b560414f216d7e3ac682f936 inc/Module/Install/Makefile.pm
+SHA1 ff97eb025b44c343d026c2a56a73d50c65319e95 inc/Module/Install/Metadata.pm
+SHA1 45b8ad29be4f0108076da44ac8393156d6513be0 inc/Module/Install/Scripts.pm
+SHA1 1422bd7274562fa614b8ad3f9ea657d41a4d15b4 inc/Module/Install/Share.pm
+SHA1 4c5ce519d404e242418f51dfe761287469e18e3a inc/Module/Install/Win32.pm
+SHA1 47a52cf8719a283c0efa2edab0088b5d67e0f23a inc/Module/Install/WriteAll.pm
+SHA1 734bddb5d69d6c6a61a00e99de3dc93ea6f45a6d lib/RDF/Endpoint.pm
+SHA1 084485f2e97af1bc0e8e74a72d5f14a57348a368 rdf_endpoint.json
 SHA1 cab17f29a3f2b0d73190f04a6212e3593f7bab3f scripts/endpoint.psgi
-SHA1 d182c2c9bfefaf10b3f6e7056cd39c114a560d84 share/index.html
+SHA1 19ac766464ef05698ac985e2a42e87dbb7912f3f share/index.html
 SHA1 6dd0cf355b49dcb0fdfe9203c68917d5320584f8 share/results.html
 SHA1 c40ebad09f7e1d92ad0228a0625d730ba2f57b84 share/www/css/docs.css
 SHA1 398bae2ae66a19ab8976036b50a2d20041b67fe5 share/www/css/sparqlcolors.css
@@ -61,12 +62,12 @@ SHA1 201409b1d00a8df0b65b00a1b92ab62d9e0bbd7a share/www/js/util.js
 SHA1 ab27c130ce49175526943d0ca34d6f7a1197a630 t/00-load.t
 SHA1 6387af7a5fde0747be5bc9ad2ec15ca9759bd95a t/pod.t
 SHA1 9115f7ffe1933ad736dc292f3c89595b36ed6aa2 t/pod_coverage.t
-SHA1 ac64598a7c17b09028399364547a0907a3685af7 t/psgi.t
+SHA1 9eb5c0dd1f1e99ad3d05afaae4d3179b714f94a5 t/psgi.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (Darwin)
+Version: GnuPG v1
 Comment: GPGTools - http://gpgtools.org
 
-iEYEARECAAYFAk/DvT0ACgkQhPK6VMqoyC2gdwCgnKroyD71azSsqvSvft+Ni4/4
-g40An08yt6tesuL33sanBQ+hXvMKp9De
-=6khr
+iEYEARECAAYFAlOxpegACgkQhPK6VMqoyC3SiwCeIikVRMNuinkmfnXJPjBODSV3
+VDkAoIVNEFuBWyBykDVTH47OM+fB1+3M
+=GCob
 -----END PGP SIGNATURE-----

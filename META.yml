@@ -4,13 +4,14 @@ author:
   - 'Gregory Todd Williams <gwilliams@cpan.org>'
   - 'Gregory Todd Williams <gwilliams@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
-  Test::More: 0.61
+  ExtUtils::MakeMaker: 6.59
+  Test::More: '0.61'
   Test::WWW::Mechanize::PSGI: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
 distribution_type: module
-generated_by: 'Module::Install version 0.99'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.08'
 license: zlib
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -31,6 +32,7 @@ requires:
   HTTP::Negotiate: 0
   Hash::Merge::Simple: 0
   IO::Compress::Gzip: 0
+  JSON: 0
   Plack::Middleware::AccessLog: 0
   Plack::Request: 0.99
   Plack::Response: 0
@@ -43,4 +45,4 @@ resources:
   homepage: http://search.cpan.org/dist/RDF-Endpoint/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/kasei/perlrdf/
-version: 0.05
+version: 0.05_01
