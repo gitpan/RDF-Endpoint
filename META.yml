@@ -45,4 +45,4 @@ resources:
   homepage: http://search.cpan.org/dist/RDF-Endpoint/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/kasei/perlrdf/
-version: 0.06_01
+version: '0.07'

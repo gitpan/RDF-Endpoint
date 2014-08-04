@@ -15,11 +15,11 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 Changes
-SHA1 3dd2c288b6243e9fad23b074130b5ae4f8b2bad8 Changes.ttl
+SHA1 266f39b41726172b55273c5591dc7bbcdbe41c8c Changes.ttl
 SHA1 b11936d525a7da21f77f2514f47682cf4e3f4cd6 Changes.xml
 SHA1 14a506260237169ed443ed15a269369cee605be3 LICENSE
 SHA1 e990e5290fcd14b34615b637c2c9d8c0444b79f4 MANIFEST
-SHA1 4265b610a88d4e7a5d430af383d93e32e16e6c13 META.yml
+SHA1 fa5b79087fa3b88c9bc696b4877e2792f0513737 META.yml
 SHA1 5e794284d491f879ee7bcaf750b5cdbecccc29de Makefile.PL
 SHA1 c082d44c499766f1583a4feda9e2ec11e8c46d44 README
 SHA1 4f7982f7e554df23debce735ab343d88d7355140 inc/Module/Install.pm
@@ -33,7 +33,7 @@ SHA1 15651618fd1e8d2fdb8da4c020bbd3d829599c42 inc/Module/Install/Scripts.pm
 SHA1 403deaa147e0c16c3be255f1360179e5c74d1f3f inc/Module/Install/Share.pm
 SHA1 4490fed943f4e556db9fd054b7ec8765ca417f7d inc/Module/Install/Win32.pm
 SHA1 8464ddf690b9f7036a0974ff172ec0ced2f6a329 inc/Module/Install/WriteAll.pm
-SHA1 9e7e81be9415e379963a9d426ab1eafed731ff1c lib/RDF/Endpoint.pm
+SHA1 9a0ca5005eee5798e62299770974b46d58f54a0f lib/RDF/Endpoint.pm
 SHA1 084485f2e97af1bc0e8e74a72d5f14a57348a368 rdf_endpoint.json
 SHA1 705b5b38f7601f3389b4e13e5b251720027af64b scripts/endpoint.psgi
 SHA1 19ac766464ef05698ac985e2a42e87dbb7912f3f share/index.html
@@ -67,7 +67,7 @@ SHA1 9eb5c0dd1f1e99ad3d05afaae4d3179b714f94a5 t/psgi.t
 Version: GnuPG v1
 Comment: GPGTools - http://gpgtools.org
 
-iEYEARECAAYFAlPd2ogACgkQhPK6VMqoyC2IZACffq4FcHxDyiit7o6hfRejDqbH
-KuEAnivAfGz04OUfHs7j5ibgqFQzFtO+
-=XKHA
+iEYEARECAAYFAlPgADcACgkQhPK6VMqoyC1ItACgkBPfSy6WnP/2pB2IX6KxzKKg
+1N0AoIwR3j6FVkOfYDiK6Dh1RhTjlcU5
+=DWjn
 -----END PGP SIGNATURE-----
